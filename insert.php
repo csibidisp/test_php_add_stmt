@@ -7,7 +7,7 @@ $email = $_POST['email'];
 $phoneCode = $_POST['phoneCode'];
 $phone = $_POST['phone'];
 
-//echo "$username, $password, $gender, $email, $phoneCode; $phone";
+echo "$username, $password, $gender, $email, $phoneCode; $phone";
 
 
 if (!empty($username) || !empty($password) || !empty($gender) || !empty($email) || !empty($phoneCode) || !empty($phone)) {
