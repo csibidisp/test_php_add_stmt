@@ -45,7 +45,7 @@ if (!empty($username) || !empty($password) || !empty($gender) || !empty($email) 
 
     //echo 'Num rows: ' . $stmt->num_rows . "<BR />\n";
 
-    if (($rnum + $rnum1)>0) {
+    if (($rnum + $rnum1)==0) {
         $stmt->close();
         $stmt1->close();
 
